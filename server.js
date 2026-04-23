@@ -71,6 +71,7 @@ app.post("/login", (req, res) => {
         res.status(401).send("Invalid login");
     }
 });
+const path = require("path");
 app.get("/login", (req, res) => {
     res.sendFile(__dirname + "/public/login.html");
 });
