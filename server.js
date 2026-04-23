@@ -71,6 +71,9 @@ app.post("/login", (req, res) => {
         res.status(401).send("Invalid login");
     }
 });
+app.get("/login", (req, res) => {
+    res.sendFile(__dirname + "/public/login.html");
+});
 // Test route
 app.get("/", (req, res) => {
     res.send("ECE Server Running 🚀");
