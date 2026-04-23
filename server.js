@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 
 // ✅ MongoDB Atlas Connection
-mongoose.connect("mongodb+srv://Gokul:2024@cluster0.rllekbh.mongodb.net/eceDB")
+mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected ✅"))
 .catch(err => console.log(err));
 
