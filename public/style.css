@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: yellow;
+    cursor: pointer;
+}
+
+.course-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
